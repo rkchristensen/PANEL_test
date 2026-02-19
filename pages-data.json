@@ -1,81 +1,67 @@
 {
+  "site": {
+    "title": "PANEL",
+    "tagline": "Practical ethics assessment for public & nonprofit organizations",
+    "logo": "logo.png"
+  },
+
+  "nav": [
+    { "title": "Home", "url": "index.html" },
+    { "title": "Survey Lab", "url": "survey-lab.html" },
+    { "title": "Data & Findings", "url": "data-findings.html" },
+    { "title": "Resources", "url": "resources.html" },
+    { "title": "Collaborate", "url": "collaborate.html" },
+    { "title": "About", "url": "about.html" }
+  ],
+
   "home": {
     "hero": {
       "title": "PANEL",
-      "subtitle": "Practical Ethics Assessment for Public & Nonprofit Organizations",
+      "subtitle": "Practical ethics assessment for public & nonprofit organizations",
       "lede": "We design and distribute high-quality, usable ethics surveys that create value for public and nonprofit organizations.",
       "ctas": [
-        { "text": "Use a Survey", "url": "/survey-lab.html" },
-        { "text": "Partner With Us", "url": "/collaborate.html" },
-        { "text": "Explore Ethics Resources", "url": "/resources.html" }
+        { "text": "Use a Survey", "url": "survey-lab.html" },
+        { "text": "Partner With Us", "url": "collaborate.html" },
+        { "text": "Explore Resources", "url": "resources.html" }
       ]
     },
     "featured": [
-      { "title": "Ethics Climate Survey", "summary": "A validated instrument to assess organizational ethics climate.", "link": "/survey-lab.html#ethics-climate" },
-      { "title": "Translational Briefs", "summary": "Student-written summaries that translate research into practice.", "link": "/resources.html#translational" },
-      { "title": "Data Repository (coming soon)", "summary": "Aggregated, anonymized ethics survey findings.", "link": "/data-findings.html" }
+      { "title": "Ethics Climate Survey", "summary": "A validated instrument to assess organizational ethics climate.", "link": "survey-lab.html#ethics-climate" },
+      { "title": "Translational Briefs", "summary": "Student-written summaries that translate research into practice.", "link": "resources.html#translational" },
+      { "title": "Data Repository (coming soon)", "summary": "Aggregated, anonymized ethics survey findings.", "link": "data-findings.html" }
     ]
   },
 
-  "surveyLab": {
-    "intro": "Core: instrument design, validation, and deployment for governments & nonprofits.",
-    "products": [
-      {
-        "id": "ethics-climate",
-        "title": "Ethics Climate Survey",
-        "what": "Measures everyday ethical culture, reporting norms, leadership tone, and compliance capacity.",
-        "sampleItems": [
-          "My supervisor acts in ways consistent with organizational values.",
-          "Employees feel safe reporting suspected misconduct without fear of retaliation."
-        ]
-      },
-      {
-        "id": "infra-survey",
-        "title": "Ethics Infrastructure Survey",
-        "what": "Assesses policies, training programs, oversight, and accountability systems.",
-        "sampleItems": [
-          "Our organization has clear processes for handling conflicts of interest.",
-          "There is regular ethics training that addresses real job duties."
-        ]
-      },
-      {
-        "id": "custom-modules",
-        "title": "Custom Modules",
-        "what": "Short modules tailored to mission- or sector-specific concerns (e.g. procurement ethics).",
-        "sampleItems": []
-      }
-    ],
-    "process": [
-      "Intake & scoping",
-      "Instrument design & cognitive testing",
-      "Pilot & validation",
-      "Full deployment & reporting",
-      "Action planning support"
-    ],
-    "methodologyLink": "/survey-lab.html#methodology"
-  },
-
-  "dataFindings": {
-    "intro": "Aggregated results and dashboards (phase 2+).",
-    "features": [ "Downloadable briefs", "Interactive trends dashboard (future)", "Public perceptions clearinghouse (UGOV/ANES modules)" ]
-  },
-
   "resources": {
-    "teaching": [ { "title": "EPARCC Cases", "link": "https://www.maxwell.syr.edu/research/eparcc" } ],
-    "translational": "Student + AI summaries, policy briefs, short reads for practitioners.",
-    "toolkits": [ "Ethics officer toolkit", "Implementation checklist", "Sample policy templates" ]
-  },
-
-  "phases": {
-    "phase1": "0-6 months: Launch Home, Survey Lab, About, Contact; lightweight Resources.",
-    "phase2": "6-18 months: Add Data & Findings, translational briefs, webinar series.",
-    "phase3": "18-36 months: Public dashboards, annual ethics report, programmatic partnerships."
+    "government": [
+      { "title": "U.S. Office of Government Ethics (OGE)", "url": "https://www.oge.gov", "summary": "Executive branch ethics oversight." },
+      { "title": "ASPA — Public Integrity Section", "url": "http://www.aspaonline.org/ethicscommunity/SEIGOV_section/", "summary": "ASPA resources and code of ethics." },
+      { "title": "ICMA — Ethics", "url": "https://icma.org/topics/ethics", "summary": "Local government ethics best practices." },
+      { "title": "Transparency International", "url": "https://www.transparency.org", "summary": "Global anti-corruption and integrity resources." },
+      { "title": "UNODC — Integrity & Ethics", "url": "https://grace.unodc.org", "summary": "Public integrity teaching modules." },
+      { "title": "CREW", "url": "https://www.citizensforethics.org", "summary": "US watchdog focused on public integrity." }
+    ],
+    "nonprofit": [
+      { "title": "National Council of Nonprofits", "url": "https://www.councilofnonprofits.org/running-nonprofit/ethics-accountability", "summary": "Governance & accountability resources." },
+      { "title": "Standards for Excellence Institute", "url": "https://standardsforexcellence.org", "summary": "Nonprofit code & certification." },
+      { "title": "Independent Sector", "url": "https://independentsector.org", "summary": "Principles for good governance." },
+      { "title": "BBB Wise Giving Alliance", "url": "https://give.org", "summary": "Charity accountability standards." },
+      { "title": "Markkula Center — Social Sector Ethics", "url": "https://www.scu.edu/ethics/focus-areas/social-sector-ethics/resources/", "summary": "Applied ethics cases & resources." },
+      { "title": "Grade Institute — Ethics Lab", "url": "https://www.gradelinstituteofcharity.co.uk/gic-ethics-lab", "summary": "Research on charity ethics." }
+    ]
   },
 
   "references": {
     "linkedin": "https://www.linkedin.com/company/panel-team/",
     "eparcc": "https://www.maxwell.syr.edu/research/eparcc",
-    "aspa": "http://www.aspaonline.org/ethicscommunity/SEIGOV_section/Public_Integrity.html",
+    "aspa": "http://www.aspaonline.org/ethicscommunity/SEIGOV_section/",
     "gradeInstitute": "https://www.gradelinstituteofcharity.co.uk/gic-ethics-lab"
+  },
+
+  "phases": {
+    "phase1": "0-6 months: Launch core site and Survey Lab.",
+    "phase2": "6-18 months: Add data repository and translational briefs.",
+    "phase3": "18-36 months: Dashboards, annual ethics report, external partnerships."
   }
 }
+
