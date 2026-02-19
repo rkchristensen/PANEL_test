@@ -2,13 +2,13 @@
   "siteTitle": "PANEL — Public and Nonprofit Ethics Lab",
   "tagline": "Practical ethics assessment for public & nonprofit organizations",
   "nav": [
-    { "title": "Home", "slug": "home", "url": "/index.html" },
-    { "title": "Survey Lab", "slug": "survey-lab", "url": "/survey-lab.html" },
-    { "title": "Data & Findings", "slug": "data-findings", "url": "/data-findings.html" },
-    { "title": "Resources", "slug": "resources", "url": "/resources.html" },
-    { "title": "Engagement & Events", "slug": "events", "url": "/events.html" },
-    { "title": "Collaborate", "slug": "collaborate", "url": "/collaborate.html" },
-    { "title": "About", "slug": "about", "url": "/about.html" }
+    { "title": "Home", "slug": "home", "url": "index.html" },
+    { "title": "Survey Lab", "slug": "survey-lab", "url": "survey-lab.html" },
+    { "title": "Data & Findings", "slug": "data-findings", "url": "data-findings.html" },
+    { "title": "Resources", "slug": "resources", "url": "resources.html" },
+    { "title": "Collaborate", "slug": "collaborate", "url": "collaborate.html" },
+    { "title": "About", "slug": "about", "url": "about.html" }
   ],
-  "primaryCta": { "text": "Request a Survey", "url": "/contact.html" }
+  "primaryCta": { "text": "Request a Survey", "url": "contact.html" }
 }
+
